@@ -1,1 +1,22 @@
-GET https://allysonthales-humble-space-fishstick-7q55796j5g43pgxq-3000.preview.app.github.dev/
+GET http://localhost:3000/devices
+###
+
+GET http://localhost:3000/device?id=3
+###
+
+POST http://localhost:3000/devices
+Content-Type: application/json
+
+{
+  "id":"3",
+  "name":"Mede temperatura sala 203",
+  "unidade":"C"
+}
+
+###
+
+DELETE https://https://localhost:3000/
+
+###
+
+UPDATE https://https://localhost:3000/
