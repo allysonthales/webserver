@@ -1,7 +1,7 @@
 GET http://localhost:3000/devices
 ###
 
-GET http://localhost:3000/device?id=3
+GET http://localhost:3000/device?id=iot0988
 ###
 
 POST http://localhost:3000/devices
@@ -15,8 +15,15 @@ Content-Type: application/json
 
 ###
 
-DELETE https://https://localhost:3000/
+DELETE http://localhost:3000/device?id=iot0988
 
 ###
 
-UPDATE https://https://localhost:3000/
+PUT http://https://localhost:3000/devices
+Content-Type: application/json
+
+{
+  "id":"3",
+  "name":"Mede temperatura sala 203",
+  "unidade":"C"
+}
